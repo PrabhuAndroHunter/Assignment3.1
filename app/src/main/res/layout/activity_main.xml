@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.assignment.MainActivity">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:weightSum="7">
+
+        <TextView
+            android:id="@+id/editText2"
+            style="@style/mytextview"
+            android:background="@color/Red"
+            android:text="Red" />
+
+        android:textAlignment="center"
+
+        <TextView
+            android:id="@+id/editText7"
+            style="@style/mytextview"
+            android:background="@color/Orange"
+            android:text="Orange" />
+
+        <TextView
+            android:id="@+id/editText6"
+            style="@style/mytextview"
+            android:background="@color/Yellow"
+            android:text="Yellow" />
+
+
+        <TextView
+            android:id="@+id/editText5"
+            style="@style/mytextview"
+            android:background="@color/Green"
+            android:text="Green" />
+
+        <TextView
+            android:id="@+id/editText4"
+            style="@style/mytextview"
+            android:background="@color/Blue"
+            android:text="Blue" />
+
+        <TextView
+            android:id="@+id/editText"
+            style="@style/mytextview"
+            android:background="@color/Indigo"
+            android:text="Indigo" />
+
+        <TextView
+            android:id="@+id/editText3"
+            style="@style/mytextview"
+            android:background="@color/Violet"
+            android:text="Violet" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
